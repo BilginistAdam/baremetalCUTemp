@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "STM32F4",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "gcc-arm",
+            "compilerPath" : "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mcpu=-mcpu=cortex-m4",
+                "-mthumb"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
