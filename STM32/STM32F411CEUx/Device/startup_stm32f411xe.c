@@ -110,8 +110,6 @@ uint32_t vectors[] __attribute__((section (".isr_vector"))) = {
     (uint32_t) Reset_Handler,
     (uint32_t) NMI_Handler,
     (uint32_t) HardFault_Handler,
-    (uint32_t) NMI_Handler,
-    (uint32_t) HardFault_Handler,
     (uint32_t) MemManage_Handler,
     (uint32_t) BusFault_Handler,
     (uint32_t) UsageFault_Handler,
